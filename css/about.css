@@ -1,0 +1,366 @@
+body {
+    background-color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 50px;
+
+}
+
+h1 {
+    color: #333;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.member {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.member img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.member h2 {
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.member p {
+    color: #666;
+}
+
+.member:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.member img:hover {
+    transform: scale(1.1);
+}
+
+.contact-link {
+    display: inline-block;
+    margin: 5px;
+    color: #0073e6;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+    color: #0056b3;
+}
+
+.form-container {
+    width: 400px;
+    padding: 20px;
+    background-color: #f4f7f8;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 170px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.section-number {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+}
+
+textarea {
+    height: 100px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100px;
+    max-height: 1000px;
+}
+
+.submit-btn {
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.submit-btn:hover {
+    background-color: #2980b9;
+}
+
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 45%;
+    margin: 0 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.profile-photo {
+    width: 30%;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: transform 0.3s ease;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-name {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.profile-description {
+    padding-left: 20px;
+    margin: 5px 0 0;
+    color: #666;
+}
+
+
+.profile-photo:hover {
+    transform: scale(1.1);
+}
+
+.profile:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 826px) {
+    .form-container {
+        width: 300px;
+    }
+}
+
+.team-section {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 30px;
+}
+
+.team-header {
+    margin-bottom: 40px;
+}
+
+.team-header h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1A202C;
+    margin-bottom: 8px;
+}
+
+.team-header p {
+    font-size: 16px;
+    color: #718096;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding: 25px;
+}
+
+.team-member-card {
+    background-color: #F7F8FC;
+    border-radius: 12px;
+    padding: 24px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.team-member-card:hover {
+    box-shadow: 0 6px 20px rgba(112, 130, 131, 0.40);
+    transition: box-shadow 0.3s ease-in-out;
+
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 16px;
+}
+
+.member-intro {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.member-details .name-role {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.member-details .name {
+    font-weight: 600;
+    color: #2D3748;
+}
+
+#team-email {
+    font-size: 20px;
+    
+}
+
+.member-details .role-divider,
+.member-details .role-text {
+    font-size: 0.9em;
+    /* Slightly smaller for role */
+    color: #718096;
+    /* Medium Gray for role */
+}
+
+.member-details .role-divider {
+    margin: 0 4px;
+}
+
+
+.social-links {
+    display: flex;
+    gap: 12px;
+    margin-top: 2px;
+    /* Align with top of name if avatar is slightly larger */
+}
+
+.social-links a {
+    color: #A0AEC0;
+    /* Light Gray for icons */
+    text-decoration: none;
+    display: inline-block;
+}
+
+.social-links a:hover {
+    color: #7C3AED;
+    /* Purple on hover */
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.member-bio p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #4A5568;
+    /* Gray for bio text */
+    margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team-header h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 600px) {
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .team-header h2 {
+        font-size: 24px;
+    }
+
+    .team-header p {
+        font-size: 15px;
+    }
+
+    .member-details .name-role {
+        font-size: 14px;
+    }
+
+    .member-bio p {
+        font-size: 13px;
+    }
+}

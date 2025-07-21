@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Not Found | Sadat STEMpire</title>
+
+    <!-- Link to the 'Inter' font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        /* 
+        ============================================
+        Enhanced 404 Page for Sadat STEMpire
+        ============================================
+        - Theme: Futuristic, Tech, Space
+        - Features: Animated starfield, glassmorphism UI, gradient text
+        ============================================
+        */
+
+        :root {
+            --bg-color: #000000;
+            --primary-text: #ffffff;
+            --secondary-text: #cccccc;
+            --accent-blue: #007bff;
+            --glow-color: rgba(0, 123, 255, 0.5);
+            --container-bg: rgba(18, 18, 18, 0.8);
+            --container-border: rgba(255, 255, 255, 0.1);
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--secondary-text);
+            /* ** THE FIX IS HERE ** */
+            display: grid;
+            place-items: center;
+            /* Replaces flexbox for perfect centering */
+            text-align: center;
+            overflow: hidden;
+            /* Prevents scrollbars from animation */
+        }
+
+        /* Animated Starfield Background */
+        .stars {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            display: block;
+            background: transparent url('http://www.script-tutorials.com/demos/360/images/stars.png') repeat top center;
+            z-index: 0;
+        }
+
+        .twinkling {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            display: block;
+            background: transparent url('http://www.script-tutorials.com/demos/360/images/twinkling.png') repeat top center;
+            z-index: 1;
+            animation: move-twink-back 200s linear infinite;
+        }
+
+        @keyframes move-twink-back {
+            from {
+                background-position: 0 0;
+            }
+
+            to {
+                background-position: -10000px 5000px;
+            }
+        }
+
+        /* Main Content Container */
+        .container {
+            max-width: 650px;
+            padding: 40px 30px;
+            position: relative;
+            z-index: 2;
+
+            /* Glassmorphism Effect */
+            background: var(--container-bg);
+            border: 1px solid var(--container-border);
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            /* For Safari */
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+
+        .logo {
+            width: 80px;
+            height: auto;
+            margin-bottom: 20px;
+            filter: drop-shadow(0 0 10px var(--glow-color));
+        }
+
+        h1 {
+            font-size: 8rem;
+            font-weight: 800;
+            margin: 0;
+            line-height: 1;
+
+            /* Gradient Text Effect */
+            background: linear-gradient(45deg, #007bff, #8a2be2, #00c6ff);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+            /* Glow Effect */
+            text-shadow: 0 0 15px rgba(0, 123, 255, 0.3),
+                0 0 25px rgba(138, 43, 226, 0.2);
+        }
+
+        h2 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            color: var(--primary-text);
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 35px;
+            max-width: 450px;
+            /* Improve readability */
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .home-link {
+            display: inline-block;
+            text-decoration: none;
+            color: var(--primary-text);
+            background-color: var(--accent-blue);
+            border: 1px solid var(--accent-blue);
+            padding: 14px 28px;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px 0 rgba(0, 123, 255, 0.4);
+        }
+
+        .home-link:hover {
+            background-color: #0056b3;
+            /* A darker blue for hover */
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px 0 rgba(0, 123, 255, 0.5);
+        }
+
+        /* Responsive adjustments for smaller screens */
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+                margin: 0 15px;
+                border-radius: 12px;
+            }
+
+            h1 {
+                font-size: 6rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 0.95rem;
+            }
+
+            .home-link {
+                padding: 12px 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Animated Background Layers -->
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <img src="https://sadat-stempire.github.io/home/Images/Sadat%20STEMpire.svg" alt="Sadat STEMpire Logo"
+            class="logo">
+        <h1>404</h1>
+        <h2>PAGE NOT FOUND</h2>
+        <p>
+            Oops! It seems you've entered a cosmic void. The page you're looking for has either been moved or never
+            existed in this timeline.
+        </p>
+        <a href="https://sadat-stempire.github.io/home" class="home-link">Return to Homebase</a>
+    </div>
+
+</body>
+
+</html>
