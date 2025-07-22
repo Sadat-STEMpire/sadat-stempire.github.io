@@ -122,8 +122,6 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background-image: url('/Images/background.jpg');
-    /* Add your image URL here */
     background-size: cover;
     background-position: center;
     display: flex;
