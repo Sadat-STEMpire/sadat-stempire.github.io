@@ -1,53 +1,69 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
-<url>
-<loc>https://sadat-stempire.github.io/home/Exams/</loc>
-<lastmod>2025-07-18T18:05:40+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://sadat-stempire.github.io/home/Important-Files/</loc>
-<lastmod>2025-07-18T18:05:40+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://sadat-stempire.github.io/home/contact/</loc>
-<lastmod>2025-07-18T18:05:40+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://sadat-stempire.github.io/home/IQ/</loc>
-<lastmod>2025-07-18T18:05:40+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://sadat-stempire.github.io/home/English/</loc>
-<lastmod>2025-07-18T18:05:40+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://sadat-stempire.github.io/home/Science/</loc>
-<lastmod>2025-07-18T18:05:40+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://sadat-stempire.github.io/home/Math/</loc>
-<lastmod>2025-07-18T18:05:40+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://sadat-stempire.github.io/home/Science-Ar/</loc>
-<lastmod>2025-07-18T18:05:40+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://sadat-stempire.github.io/home/Math-AR/</loc>
-<lastmod>2025-07-18T18:05:40+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://sadat-stempire.github.io/home/Test-Bank/</loc>
-<lastmod>2025-07-18T18:05:40+00:00</lastmod>
-<priority>0.80</priority>
-</url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://sadat-stempire.github.io/</loc>
+    <lastmod>2025-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://sadat-stempire.github.io/Exams/</loc>
+    <lastmod>2025-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://sadat-stempire.github.io/Important-Files/</loc>
+    <lastmod>2025-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://sadat-stempire.github.io/contact/</loc>
+    <lastmod>2025-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://sadat-stempire.github.io/IQ/</loc>
+    <lastmod>2025-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://sadat-stempire.github.io/English/</loc>
+    <lastmod>2025-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://sadat-stempire.github.io/Science/</loc>
+    <lastmod>2025-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://sadat-stempire.github.io/Math/</loc>
+    <lastmod>2025-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://sadat-stempire.github.io/Science-Ar/</loc>
+    <lastmod>2025-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://sadat-stempire.github.io/Math-AR/</loc>
+    <lastmod>2025-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://sadat-stempire.github.io/Test-Bank/</loc>
+    <lastmod>2025-07-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
 </urlset>
