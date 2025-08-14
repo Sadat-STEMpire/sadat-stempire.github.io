@@ -1340,3 +1340,95 @@ video#hero-video {
     border: 1px solid #e5e7eb;
     margin-top: auto;
 }
+
+/* Main popup overlay */
+.rare-overlay-4amel_sadat_STEMpire {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+}
+
+/* Popup box */
+.rare-popup-4amel_sadat_STEMpire {
+    background: linear-gradient(135deg, #ff2e63, #ff8a00);
+    color: white;
+    padding: 25px 35px;
+    border-radius: 18px;
+    max-width: 420px;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    animation: popup-bounce-4amel_sadat_STEMpire 0.6s ease-out;
+    position: relative;
+}
+
+/* Title */
+.rare-title-4amel_sadat_STEMpire {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+/* Description */
+.rare-desc-4amel_sadat_STEMpire {
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.rare-btn-4amel_sadat_STEMpire {
+    display: inline-block;
+    background: #fff;
+    color: #ff2e63;
+    padding: 10px 18px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.rare-btn-4amel_sadat_STEMpire:hover {
+    background: #ff2e63;
+    color: white;
+}
+
+/* Close button */
+.rare-close-4amel_sadat_STEMpire {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    background: none;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* Animation */
+@keyframes popup-bounce-4amel_sadat_STEMpire {
+    0% {
+        transform: scale(0.7);
+        opacity: 0;
+    }
+
+    60% {
+        transform: scale(1.05);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

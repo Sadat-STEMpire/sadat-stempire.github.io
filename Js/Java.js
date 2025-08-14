@@ -310,3 +310,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
+document.querySelector(".rare-close-4amel_sadat_STEMpire").addEventListener("click", function () {
+    document.getElementById("4amel_sadat_STEMpire").style.display = "none";
+});
